@@ -1,0 +1,149 @@
+html{
+    background-color: #212121;
+}
+li{
+    list-style-type: none;
+    color: white;
+    font-family: Montserrat;
+}
+.conteiner{
+    background-color: #212121;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+}
+a{
+    text-decoration: none;
+    color: white;  
+    font-family: Montserrat; 
+    font-size: 17px;
+}
+.ul1 li{
+    margin: 0px 0px;
+    padding: 20px;
+    background-color: #E64A19;
+    font-size: 20px;
+    height: 60px;
+    box-sizing: border-box;
+}
+.ul1{
+    display: flex;
+    width: 100%;
+    background-color: #E64A19;
+    margin: 50px 0px;
+    padding: 0;
+    height: 60px;
+}
+.ul1 li:hover{
+    background-color: black;
+    transition: 1s;
+}
+h1 {
+    margin: 100px auto;
+    font-size: 60px;
+    color: white;
+}
+h3 {
+    margin: -60px auto;
+    font-size: 20px;
+    color: white;
+}
+.drop1{
+    width: 150px;
+}
+.drop1 li{
+    margin: 0px 0px;
+    padding: 20px;
+    background-color: #E64A19;
+    font-size: 20px;
+    position: relative;
+    width: 200px;
+    top: 18px;
+    left: -60px;
+}
+.drop1 ul{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    width: 100%;
+    position: relative;
+
+}
+.drop1:hover >  ul{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+.drop2{
+    width: 200px;
+}
+.drop2 li{
+    margin: 0px 0px;
+    padding: 20px;
+    background-color: #E64A19;
+    font-size: 20px;
+    position: relative;
+    width: 220px;
+    top: 18px;
+    left: -60px;
+}
+.drop2 ul{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    width: 100%;
+    position: relative;
+
+}
+.drop2:hover >  ul{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+.drop3 li{
+    margin: 0px 0px;
+    padding: 20px;
+    background-color: #E64A19;
+    font-size: 20px;
+    position: relative;
+    width: 220px;
+    top: -42px;
+    left: 160px;
+}
+.drop3 ul{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    width: 100%;
+    position: relative;
+
+}
+.drop3:hover >  ul{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
+.drop4 li{
+    margin: 0px 0px;
+    padding: 20px;
+    background-color: #E64A19;
+    font-size: 20px;
+    position: relative;
+    width: 220px;
+    top: -42px;
+    left: 160px;
+}
+.drop4 ul{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    width: 100%;
+    position: relative;
+
+}
+.drop4:hover >  ul{
+    visibility: visible;
+    opacity: 1;
+    transition: 1s;
+}
